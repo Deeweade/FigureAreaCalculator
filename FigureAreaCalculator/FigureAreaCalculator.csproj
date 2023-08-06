@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Common\" />
+    <None Remove="Common\Interfaces\" />
+    <None Remove="Common\Interfaces\Calculators\" />
+    <None Remove="Domain\" />
+    <None Remove="Domain\Figures\" />
+    <None Remove="Domain\Exceptions\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Calculators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Interfaces\Calculators\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Figures\" />
+    <Folder Include="Domain\Exceptions\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Calculators\" />
+  </ItemGroup>
+</Project>
